@@ -6,9 +6,9 @@
 
 ## 下载
 
-- [完整版 v0.6.2 Windows x64 安装包](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/download/v0.6.2/XingmiaoWriter-0.6.2-x64-Setup.exe)
+- [完整版 v0.6.3 Windows x64 安装包](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/download/v0.6.3/XingmiaoWriter-0.6.3-x64-Setup.exe)
 - [开源核心版安装包](https://github.com/z55902383-debug/xingmiao-writer-core/releases/download/v0.6.2/XingmiaoWriter-Core-0.6.2-x64-Setup.exe)
-- [完整版更新与附件](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/tag/v0.6.2)
+- [完整版更新与附件](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/tag/v0.6.3)
 
 ## 功能
 
@@ -17,6 +17,10 @@
 完整版另含创意工具箱、封面生成、飞书账号、会员与共享广场服务及安装更新。离线编辑无需登录；AI 和生图需要自己的模型配置，可能产生费用。账号与广场依赖维护者的在线服务。
 
 [功能说明](docs/features.md) · [检查报告与已知限制](docs/verification-2026-10-06.md)
+
+## 更新安装目录
+
+更新安装会打开安装向导，允许选择安装目录；新版客户端默认带入当前程序所在目录。v0.6.3 安装包收到旧客户端的静默更新请求时，也会显示向导，请在安装前确认目录位于你希望的磁盘。安装目录与书库目录独立，更换安装位置不会自动迁移作品。
 
 ## 安装与数据
 
