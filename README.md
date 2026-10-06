@@ -6,9 +6,9 @@
 
 ## 下载
 
-- [完整版 v0.6.3 Windows x64 安装包](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/download/v0.6.3/XingmiaoWriter-0.6.3-x64-Setup.exe)
-- [开源核心版安装包](https://github.com/z55902383-debug/xingmiao-writer-core/releases/download/v0.6.2/XingmiaoWriter-Core-0.6.2-x64-Setup.exe)
-- [完整版更新与附件](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/tag/v0.6.3)
+- [完整版 v0.6.4 Windows x64 安装包](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/download/v0.6.4/XingmiaoWriter-0.6.4-x64-Setup.exe)
+- [开源核心版安装包](https://github.com/z55902383-debug/xingmiao-writer-core/releases/download/v0.6.4/XingmiaoWriter-Core-0.6.4-x64-Setup.exe)
+- [完整版更新与附件](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/tag/v0.6.4)
 
 ## 功能
 
@@ -18,9 +18,15 @@
 
 [功能说明](docs/features.md) · [检查报告与已知限制](docs/verification-2026-10-06.md)
 
+## 分步创作流程
+
+想法 → 全文大纲 → 分卷 → 卷大纲/细纲 → 章节大纲/细纲 → 正文 → 完成。逐步生成并采用，同步卷名、章名与内容，保留已有正文并提示下一步。长规划改为摘要预览和完整阅读。
+
+[操作与采用规则](docs/分步创作流程与采用说明.md) · [本次检查](docs/检查记录-v0.6.4.md)
+
 ## 更新安装目录
 
-更新安装会打开安装向导，允许选择安装目录；新版客户端默认带入当前程序所在目录。v0.6.3 安装包收到旧客户端的静默更新请求时，也会显示向导，请在安装前确认目录位于你希望的磁盘。安装目录与书库目录独立，更换安装位置不会自动迁移作品。
+更新安装会打开安装向导，允许选择安装目录；新版客户端默认带入当前程序所在目录。v0.6.4 安装包收到旧客户端的静默更新请求时，也会显示向导，请在安装前确认目录位于你希望的磁盘。安装目录与书库目录独立，更换安装位置不会自动迁移作品。
 
 ## 安装与数据
 
