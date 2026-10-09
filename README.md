@@ -6,9 +6,9 @@
 
 ## 下载
 
-- [完整版 v0.6.4 Windows x64 安装包](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/download/v0.6.4/XingmiaoWriter-0.6.4-x64-Setup.exe)
-- [开源核心版安装包](https://github.com/z55902383-debug/xingmiao-writer-core/releases/download/v0.6.4/XingmiaoWriter-Core-0.6.4-x64-Setup.exe)
-- [完整版更新与附件](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/tag/v0.6.4)
+- [完整版 v0.6.5 Windows x64 安装包](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/download/v0.6.5/XingmiaoWriter-0.6.5-x64-Setup.exe)
+- [开源核心版安装包](https://github.com/z55902383-debug/xingmiao-writer-core/releases/download/v0.6.5/XingmiaoWriter-Core-0.6.5-x64-Setup.exe)
+- [完整版更新与附件](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/tag/v0.6.5)
 
 ## 功能
 
@@ -22,11 +22,20 @@
 
 想法 → 全文大纲 → 分卷 → 卷大纲/细纲 → 章节大纲/细纲 → 正文 → 完成。逐步生成并采用，同步卷名、章名与内容，保留已有正文并提示下一步。长规划改为摘要预览和完整阅读。
 
-[操作与采用规则](docs/分步创作流程与采用说明.md) · [本次检查](docs/检查记录-v0.6.4.md)
+[操作与采用规则](docs/分步创作流程与采用说明.md) · [本次检查](docs/检查记录-v0.6.5.md)
+
+## v0.6.5 人工码字与界面更新
+
+- 人工码字板：临时稿、章节独立草稿、存入作品、冲突恢复、TXT 导出与稿件历史。
+- 专注计时、写作目标、查找替换、撤销与字体字号行距；正文排版与 AI 工作台共用规则。
+- 灵感助手、作品备忘录、整篇/片段引用；生成讨论与正式正文分开。
+- 分组工具栏、可收起侧栏与窄屏适配；分卷父层级、本卷章节与完成状态更清晰。
+
+[人工码字操作说明 ](docs/人工码字板使用说明.md)
 
 ## 更新安装目录
 
-更新安装会打开安装向导，允许选择安装目录；新版客户端默认带入当前程序所在目录。v0.6.4 安装包收到旧客户端的静默更新请求时，也会显示向导，请在安装前确认目录位于你希望的磁盘。安装目录与书库目录独立，更换安装位置不会自动迁移作品。
+更新安装会打开安装向导，允许选择安装目录；新版客户端默认带入当前程序所在目录。v0.6.5 安装包收到旧客户端的静默更新请求时，也会显示向导，请在安装前确认目录位于你希望的磁盘。安装目录与书库目录独立，更换安装位置不会自动迁移作品。
 
 ## 安装与数据
 
