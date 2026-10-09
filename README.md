@@ -6,9 +6,13 @@
 
 ## 下载
 
-- [完整版 v0.6.5 Windows x64 安装包](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/download/v0.6.5/XingmiaoWriter-0.6.5-x64-Setup.exe)
+- [完整版 v0.6.6 Windows x64 安装包](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/download/v0.6.6/XingmiaoWriter-0.6.6-x64-Setup.exe)
 - [开源核心版安装包](https://github.com/z55902383-debug/xingmiao-writer-core/releases/download/v0.6.5/XingmiaoWriter-Core-0.6.5-x64-Setup.exe)
-- [完整版更新与附件](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/tag/v0.6.5)
+- [完整版更新与附件](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/tag/v0.6.6)
+
+## v0.6.6 广场删除修复
+
+修复已添加到本机的资源无法点击删除的问题。服务器继续核验上传者，删除共享原件后保留本机副本。[更新与验证](docs/广场删除修复-v0.6.6.md)
 
 ## 功能
 
