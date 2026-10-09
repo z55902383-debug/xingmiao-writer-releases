@@ -6,9 +6,18 @@
 
 ## 下载
 
-- [完整版 v0.6.6 Windows x64 安装包](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/download/v0.6.6/XingmiaoWriter-0.6.6-x64-Setup.exe)
-- [开源核心版安装包](https://github.com/z55902383-debug/xingmiao-writer-core/releases/download/v0.6.5/XingmiaoWriter-Core-0.6.5-x64-Setup.exe)
-- [完整版更新与附件](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/tag/v0.6.6)
+- [完整版 v0.6.7 Windows x64 安装包](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/download/v0.6.7/XingmiaoWriter-0.6.7-x64-Setup.exe)
+- [开源核心版安装包](https://github.com/z55902383-debug/xingmiao-writer-core/releases/download/v0.6.7/XingmiaoWriter-Core-0.6.7-x64-Setup.exe)
+- [完整版更新与附件](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/tag/v0.6.7)
+
+## v0.6.7 风格与要求资料库
+
+- 风格档案新增多条写作风格与写作要求，可新建、编辑、删除恢复、导入和导出
+- 支持为风格和要求分别导入原文并用 AI 蒸馏，预览后采用到指定条目，保留编辑历史
+- 本次参考资料新增风格参考，可分别选择多条风格和要求，仅发送选中内容并保留本次使用记录
+- 兼容原本书风格，新增资料随作品 JSON 备份恢复，阻止陈旧结果覆盖新资料
+
+[操作说明](docs/风格与写作要求使用说明.md) · [本次检查](docs/检查记录-v0.6.7.md)
 
 ## v0.6.6 广场删除修复
 
@@ -20,7 +29,7 @@
 
 完整版另含创意工具箱、封面生成、飞书账号、会员与共享广场服务及安装更新。离线编辑无需登录；AI 和生图需要自己的模型配置，可能产生费用。账号与广场依赖维护者的在线服务。
 
-[功能说明](docs/features.md) · [检查报告与已知限制](docs/verification-2026-10-09.md)
+[功能说明](docs/features.md) · [检查报告与已知限制](docs/检查记录-v0.6.7.md)
 
 ## 分步创作流程
 
