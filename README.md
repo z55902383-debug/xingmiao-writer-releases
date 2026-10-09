@@ -6,9 +6,20 @@
 
 ## 下载
 
-- [完整版 v0.6.8 Windows x64 安装包](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/download/v0.6.8/XingmiaoWriter-0.6.8-x64-Setup.exe)
-- [开源核心版安装包](https://github.com/z55902383-debug/xingmiao-writer-core/releases/download/v0.6.8/XingmiaoWriter-Core-0.6.8-x64-Setup.exe)
-- [完整版更新与附件](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/tag/v0.6.8)
+- [完整版 v0.6.9 Windows x64 安装包](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/download/v0.6.9/XingmiaoWriter-0.6.9-x64-Setup.exe)
+- [开源核心版安装包](https://github.com/z55902383-debug/xingmiao-writer-core/releases/download/v0.6.9/XingmiaoWriter-Core-0.6.9-x64-Setup.exe)
+- [完整版更新与附件](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/tag/v0.6.9)
+
+## v0.6.9 风格选择与引用清单
+
+- 生成按钮上方常驻风格与参考入口，显示选中数量并直达风格选择和当前引用清单
+- 多条风格和要求按页签、已选/可选层级展示，支持搜索名称与来源、只看已选、分别清空；长列表独立滚动
+- 引用清单按实际请求资料分组，定向蒸馏不误报其他作品资料；候选稿保留当时的引用快照
+- 资料库增加搜索与状态筛选，目标字数直接显示，窄窗口管理入口、较小设置区及空/失败状态更清楚
+
+[使用说明](docs/风格选择与参考资料说明.md) · [本次检查](docs/检查记录-v0.6.9.md)
+
+![常驻风格入口与多条参考选择](docs/assets/reference-controls.png)
 
 ## v0.6.8 生成反馈与风格页面优化
 
