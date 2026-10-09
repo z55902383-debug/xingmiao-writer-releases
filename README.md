@@ -6,9 +6,22 @@
 
 ## 下载
 
-- [完整版 v0.6.7 Windows x64 安装包](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/download/v0.6.7/XingmiaoWriter-0.6.7-x64-Setup.exe)
-- [开源核心版安装包](https://github.com/z55902383-debug/xingmiao-writer-core/releases/download/v0.6.7/XingmiaoWriter-Core-0.6.7-x64-Setup.exe)
-- [完整版更新与附件](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/tag/v0.6.7)
+- [完整版 v0.6.8 Windows x64 安装包](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/download/v0.6.8/XingmiaoWriter-0.6.8-x64-Setup.exe)
+- [开源核心版安装包](https://github.com/z55902383-debug/xingmiao-writer-core/releases/download/v0.6.8/XingmiaoWriter-Core-0.6.8-x64-Setup.exe)
+- [完整版更新与附件](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/tag/v0.6.8)
+
+## v0.6.8 生成反馈与风格页面优化
+
+- 写作助手顶部常驻真实生成状态：准备资料、等待响应、接收内容、分析变化，显示耗时与已生成字符数
+- 生成中增加柔和流光边框、流动细线与旋转图标；支持减少动态效果，完成、停止与失败后结束动画
+- 流式内容跟随最新段落，向上阅读自动暂停，可一键恢复；中央生成入口直接定位本次候选，及时刷新模型暂停前的最后一段
+- 写作资料库按风格与要求说明用途，标示已选用、可选用或待填写；导出删除收入更多菜单，本书原有档案独立收起
+
+[界面操作说明](docs/生成进度与风格页面说明.md) · [本次检查](docs/检查记录-v0.6.8.md)
+
+![生成时常驻的助手进度](docs/assets/generation-activity.png)
+
+![资料库与原本书档案分层](docs/assets/writing-profile-library.png)
 
 ## v0.6.7 风格与要求资料库
 
