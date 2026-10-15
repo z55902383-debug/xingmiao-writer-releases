@@ -2,47 +2,26 @@
 
 本地小说工作台，支持人工码字、AI写作与资料整理。本仓库分发完整版软件；[MIT核心源码](https://github.com/z55902383-debug/xingmiao-writer-core)单独维护。
 
-**v0.6.10 · Windows x64**
+**v0.6.11 · Windows x64**
 
-[下载完整版安装包](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/download/v0.6.10/XingmiaoWriter-0.6.10-x64-Setup.exe) · [开源版](https://github.com/z55902383-debug/xingmiao-writer-core/releases/tag/v0.6.10) · [更新与附件](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/tag/v0.6.10)
+[下载完整版安装包](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/download/v0.6.11/XingmiaoWriter-0.6.11-x64-Setup.exe) · [开源版](https://github.com/z55902383-debug/xingmiao-writer-core/releases/tag/v0.6.11) · [更新与附件](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/tag/v0.6.11)
 
 **会员免费，无需付费开通。** 完整版区分会员与普通用户，是为了管理创作广场提示词库及相关权限，不是收费套餐。第三方模型和生图费用由服务商决定。开源版不含账号和广场。
 
-## 界面预览
-
-v0.6.10实际界面，以独立演示作品拍摄，不含个人书库、密钥或账号会话。
-
 ![当前书架](docs/assets/library.png)
 
-### 写作与规划
+## v0.6.11 本次更新
 
-![写作工作台](docs/assets/workspace.png)
+- **写前准备**：新增本章写前卡，记录必发生、禁止发生、人物知情边界与停笔点。
+- **续写与旧文**：默认保留最近10章完整已定稿前文，提供续写状态卡、按原文位置检索、手动语义补搜及关系记忆联动；片段由作者选择，来源改写后重新核对。
+- **旧稿与资料**：导入TXT/Markdown或粘贴原稿，预览拆章及残稿；资料重建按章分析、逐项核对原文证据，拆文素材采用后默认不启用。
+- **双列对照**：左侧保存AI参考稿快照，右侧独立人工草稿，支持调整列宽与滚动方式；核对后再写入章节。
+- **生成与复核**：可查看本次生成阶段、耗时与实际引用快照，核对正文问题清单及改稿影响，保留批量章节规划的目标和采用检查。
+- **回收站与显示**：可配置保留期，默认不自动清理；调整步骤高亮、小窗口和资料区显示。
 
-![分卷与章节规划](docs/assets/planning.png)
+完整版工具箱新增专项风格与指令选择、快速创建与工具标签，封面和文字工具分别使用本次选中内容。版本提醒支持稍后提醒、忽略指定版本和更新后说明，下载完成后仍由作者主动安装。工具箱广场新标签依赖更新后的线上plaza接口；本轮未部署该接口。
 
-### 资料整理与风格参考
-
-![资料整理助手](docs/assets/knowledge-assistant.png)
-
-![写作风格与要求资料库](docs/assets/writing-profile-library.png)
-
-![每次生成的风格、Skill与参考选择](docs/assets/reference-controls.png)
-
-### 人工码字
-
-![人工码字板](docs/assets/manual-writing.png)
-
-<details><summary>浅色书架、生成状态与设置</summary>
-
-![浅色书架](docs/assets/library-light.png)
-
-![生成状态](docs/assets/generation-activity.png)
-
-![模型与本地设置](docs/assets/settings.png)
-
-![用户名密码登录入口](docs/assets/account-login.png)
-
-</details>
+[续写与检索](docs/续写状态与旧文检索.md) · [双列对照](docs/双列对照创作.md) · [生成过程](docs/本次生成过程.md) · [工具箱指令](docs/创意工具箱风格与指令.md)
 
 ## 主要功能
 
@@ -66,12 +45,12 @@ v0.6.10实际界面，以独立演示作品拍摄，不含个人书库、密钥�
 
 作品保存在本机，书库位置可在设置中更换。安装目录与书库独立，更新或迁移前请备份。
 
-JSON备份包括最终作品资料、章节及历史、Skill和回收站；**不包含模型密钥、账号会话、资料整理对话及方案撤销历史**。恢复创建副本，旧对话不能用于撤销，但回收资料仍可恢复。
+JSON备份包括最终作品资料、章节及历史、Skill和回收站；**不包含模型密钥、账号会话、资料整理对话、方案撤销历史及资料重建/拆文分析过程**。恢复创建副本，旧对话不能用于撤销，但回收资料仍可恢复。
 
 AI请求把本次选中的正文和资料发送到配置的模型服务，输出需作者审核。本地模拟检查不代表真实模型质量或网络可用性。Windows x64安装包未配置代码签名证书。
 
 ## 说明与反馈
 
-[功能说明](docs/features.md) · [资料整理](docs/资料整理使用说明.md) · [创作流程](docs/分步创作流程与采用说明.md) · [人工码字](docs/人工码字板使用说明.md) · [风格参考](docs/风格选择与参考资料说明.md) · [本次检查](docs/检查记录-v0.6.10.md)
+[功能说明](docs/features.md) · [资料整理](docs/资料整理使用说明.md) · [创作流程](docs/分步创作流程与采用说明.md) · [人工码字](docs/人工码字板使用说明.md) · [风格参考](docs/风格选择与参考资料说明.md) · [本次检查](docs/检查记录-v0.6.11.md)
 
 完整版附加模块未开源，核心MIT许可不覆盖附加模块。反馈通过Issues提供版本和复现步骤，不附账号会话、密钥或私人小说。
