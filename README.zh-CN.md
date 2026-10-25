@@ -1,27 +1,44 @@
 [English](README.md) | **简体中文**
 
-# 星喵写作 · 完整版下载
+<p align="center">
+  <img src="public/cat-avatar.png" width="112" height="112" alt="Xingmiao Writer logo">
+</p>
 
-本地小说工作台，支持人工码字、AI写作与资料整理。本仓库分发完整版软件；[MIT核心源码](https://github.com/z55902383-debug/xingmiao-writer-core)单独维护。
+<h1 align="center">星喵写作</h1>
 
-**v0.6.13 · Windows x64**
+<p align="center"><strong>本地优先的小说工作台：人工码字、AI创作、故事规划与资料联动，让故事慢慢生长。</strong></p>
 
-[下载完整版安装包](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/download/v0.6.13/XingmiaoWriter-0.6.13-x64-Setup.exe) · [开源版](https://github.com/z55902383-debug/xingmiao-writer-core/releases/tag/v0.6.13) · [更新与附件](https://github.com/z55902383-debug/xingmiao-writer-releases/releases/tag/v0.6.13)
+<p align="center">
+  <img src="https://img.shields.io/badge/Windows-x64-28486b" alt="Windows x64">
+  <img src="https://img.shields.io/badge/version-1.0.0-326b62" alt="Version 1.0.0">
+  <img src="https://img.shields.io/badge/storage-local--first-766540" alt="Local-first storage">
+</p>
 
-**会员免费，无需付费开通。** 完整版区分会员与普通用户，是为了管理创作广场提示词库及相关权限，不是收费套餐。第三方模型和生图费用由服务商决定。开源版不含账号和广场。
+<p align="center">
+  <a href="https://github.com/z55902383-debug/xingmiao-writer-releases/releases/download/v1.0.0/XingmiaoWriter-1.0.0-x64-Setup.exe">下载 Windows 安装包</a> ·
+  <a href="https://github.com/z55902383-debug/xingmiao-writer-releases/releases/tag/v1.0.0">更新与附件</a> ·
+  <a href="https://github.com/z55902383-debug/xingmiao-writer-core">开源版源码</a>
+</p>
 
-![当前书架](docs/assets/library.png)
+![星喵写作 · 当前界面（独立演示书库）](docs/assets/library.png)
 
-## v0.6.13 本次更新
+**会员免费，无需付费开通。** 完整版的会员区分用于管理广场提示词库与相关权限，不是收费套餐。第三方模型和生图费用由服务商决定，开源版不含账号与广场。
 
-- **仿写与风格分开管理**：独立的故事对标库与文风库，可以分别多选并设置占比；写作要求单独配置。
-- **上传与采用更稳妥**：批量上传、逐篇分析、审核后采用；来源改变时拒绝旧分析覆盖，实际引用与候选快照可查看。
-- **多风格交互**：主区与助手占比同步，完善搜索筛选、详情展开、键盘操作、窄屏菜单和资料层级。
-- **上下文与输出核对**：资料与系统规则分层，完整发送已选且正权重的档案，仿写与文风分别归一；新结构化任务检查格式及目标，采用时再次核对。
+## v1.0.0 本次更新
 
-[仿写与多风格融合使用说明](docs/仿写与多风格融合使用说明.md)
+- **故事资料更完整**：知识蓝图、地点地图、人物/物品引用和父子地图导航；独立金手指档案支持多人能力与启用范围。
+- **创作与资料联动**：分类备忘录、人工灵感引用及跨页导航；章节定稿前核对资料同步，保留证据与重复写入保护。
+- **日常操作更稳妥**：保存失败保留正文并阻止离开；新书构思在会话内保留；优化弹窗焦点、页签键盘、低窗口布局、主题对比度与启动体验。
+- **版本统一**：现有项目、软件信息、安装包和发布记录统一为1.0.0。
+
+完整版工具箱支持生成内容分析、目标预览、核对后加入作品，以及按已确认资料继续新书准备。**自动创作目前为配置及运行页预览**：可保存配置并创建真实作品，但运行页仍为计时演示，尚未实现无人值守全书生成、后台调度和崩溃续跑。
+
+[1.0.0使用指南](docs/1.0使用指南.md)
 
 ## 主要功能
+
+知识蓝图和地图、金手指档案、分类备忘录与章节资料同步，可与现有写作流程配合使用。
+
 
 - 短篇由想法、简纲直接拆章；长篇按总纲、分卷、卷纲/细纲、章规划、正文逐步生成与采用，名称与内容同步到对应位置。
 - 人工码字板：独立草稿、专注计时、目标统计、查找替换、稿件历史与存入作品。
@@ -51,6 +68,6 @@ AI请求把本次选中的正文和资料发送到配置的模型服务，输出
 
 ## 说明与反馈
 
-[功能说明](docs/features.md) · [资料整理](docs/资料整理使用说明.md) · [创作流程](docs/分步创作流程与采用说明.md) · [人工码字](docs/人工码字板使用说明.md) · [风格参考](docs/风格选择与参考资料说明.md) · [本次检查](docs/检查记录-v0.6.13.md)
+[功能说明](docs/features.md) · [资料整理](docs/资料整理使用说明.md) · [创作流程](docs/分步创作流程与采用说明.md) · [人工码字](docs/人工码字板使用说明.md) · [风格参考](docs/风格选择与参考资料说明.md) · [本次检查](docs/检查记录-v1.0.0.md)
 
 完整版附加模块未开源，核心MIT许可不覆盖附加模块。反馈通过Issues提供版本和复现步骤，不附账号会话、密钥或私人小说。
