@@ -10,13 +10,13 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Windows-x64-28486b" alt="Windows x64">
-  <img src="https://img.shields.io/badge/version-1.0.0-326b62" alt="Version 1.0.0">
+  <img src="https://img.shields.io/badge/version-1.0.1-326b62" alt="Version 1.0.1">
   <img src="https://img.shields.io/badge/storage-local--first-766540" alt="Local-first storage">
 </p>
 
 <p align="center">
-  <a href="https://github.com/z55902383-debug/xingmiao-writer-releases/releases/download/v1.0.0/XingmiaoWriter-1.0.0-x64-Setup.exe">Download for Windows</a> ·
-  <a href="https://github.com/z55902383-debug/xingmiao-writer-releases/releases/tag/v1.0.0">Release notes</a> ·
+  <a href="https://github.com/z55902383-debug/xingmiao-writer-releases/releases/download/v1.0.1/XingmiaoWriter-1.0.1-x64-Setup.exe">Download for Windows</a> ·
+  <a href="https://github.com/z55902383-debug/xingmiao-writer-releases/releases/tag/v1.0.1">Release notes</a> ·
   <a href="https://github.com/z55902383-debug/xingmiao-writer-core">Open Core source</a>
 </p>
 
@@ -24,16 +24,17 @@
 
 **Membership is free.** Full-edition member status manages access to the community prompt library; it is not a paid subscription. Third-party model and image providers may charge separately. Open Core has no account or community modules.
 
-## New in v1.0.0
+## New in v1.0.1
 
-- **Richer story organization:** knowledge blueprints, place maps, character/item links and parent/child map navigation; separate multi-holder ability profiles with explicit enabled scopes.
-- **Connected writing workflows:** categorized memos, manual-writing inspiration references and navigation; review chapter-data synchronization before finalizing, with evidence and duplicate-write checks.
-- **More reliable everyday editing:** preserve prose and block navigation after a failed save; retain new-story drafts within the app session; improve dialog focus, keyboard tabs, low-height layouts, theme contrast and startup.
-- **One release version:** existing projects, application metadata, installers and release records now use 1.0.0.
+- **Writer's studio interface:** graphite dark and paper-white light themes, Xingmiao blue actions, and clearer hierarchy across the library, workspace, references and settings.
+- **Four library layouts:** spacious cards, compact list, cover wall and dense text-and-image view, with saved search/filter/layout controls.
+- **Custom book covers:** upload JPG, PNG or WebP, adjust zoom and position, and display at 3:4; covers persist across reloads and backup/restore.
+- **Planning fixes:** correctly reuse the initial empty chapter in the first volume and validate batch positions without accepting IDs from other chapters.
+- **Responsive details:** improve window sizes, theme contrast and dialog controls.
 
-Full-edition tools can analyze generated material, preview its destination and add it to a selected book after review. The guided new-book preparation route reuses confirmed story data. **Automatic writing is a configuration and run-page preview:** it can save settings into a real book, but its run page is a timed demonstration. Unattended whole-book generation, background scheduling and crash resume are not implemented.
+Automatic writing remains a configuration/run-page preview, with a timed demonstration rather than unattended whole-book generation.
 
-[1.0.0 guide (中文)](docs/1.0使用指南.md)
+[1.0.1 guide (中文)](docs/1.0使用指南.md)
 
 ## Features
 
@@ -72,7 +73,7 @@ Desktop checks use isolated test libraries and mock model services; they do not 
 
 ## Documentation and feedback
 
-[Detailed features (中文)](docs/features.md) · [Verification (中文)](docs/检查记录-v1.0.0.md) · [Story-data guide (中文)](docs/资料整理使用说明.md) · [Writing workflow (中文)](docs/分步创作流程与采用说明.md) · [Upload guide (中文)](docs/GitHub上传步骤.md)
+[Detailed features (中文)](docs/features.md) · [Verification (中文)](docs/检查记录-v1.0.1.md) · [Story-data guide (中文)](docs/资料整理使用说明.md) · [Writing workflow (中文)](docs/分步创作流程与采用说明.md) · [Upload guide (中文)](docs/GitHub上传步骤.md)
 
 Full-edition add-ons are not open source and are not covered by the core MIT license.
 

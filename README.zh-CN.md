@@ -10,13 +10,13 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Windows-x64-28486b" alt="Windows x64">
-  <img src="https://img.shields.io/badge/version-1.0.0-326b62" alt="Version 1.0.0">
+  <img src="https://img.shields.io/badge/version-1.0.1-326b62" alt="Version 1.0.1">
   <img src="https://img.shields.io/badge/storage-local--first-766540" alt="Local-first storage">
 </p>
 
 <p align="center">
-  <a href="https://github.com/z55902383-debug/xingmiao-writer-releases/releases/download/v1.0.0/XingmiaoWriter-1.0.0-x64-Setup.exe">下载 Windows 安装包</a> ·
-  <a href="https://github.com/z55902383-debug/xingmiao-writer-releases/releases/tag/v1.0.0">更新与附件</a> ·
+  <a href="https://github.com/z55902383-debug/xingmiao-writer-releases/releases/download/v1.0.1/XingmiaoWriter-1.0.1-x64-Setup.exe">下载 Windows 安装包</a> ·
+  <a href="https://github.com/z55902383-debug/xingmiao-writer-releases/releases/tag/v1.0.1">更新与附件</a> ·
   <a href="https://github.com/z55902383-debug/xingmiao-writer-core">开源版源码</a>
 </p>
 
@@ -24,16 +24,17 @@
 
 **会员免费，无需付费开通。** 完整版的会员区分用于管理广场提示词库与相关权限，不是收费套餐。第三方模型和生图费用由服务商决定，开源版不含账号与广场。
 
-## v1.0.0 本次更新
+## v1.0.1 本次更新
 
-- **故事资料更完整**：知识蓝图、地点地图、人物/物品引用和父子地图导航；独立金手指档案支持多人能力与启用范围。
-- **创作与资料联动**：分类备忘录、人工灵感引用及跨页导航；章节定稿前核对资料同步，保留证据与重复写入保护。
-- **日常操作更稳妥**：保存失败保留正文并阻止离开；新书构思在会话内保留；优化弹窗焦点、页签键盘、低窗口布局、主题对比度与启动体验。
-- **版本统一**：现有项目、软件信息、安装包和发布记录统一为1.0.0。
+- **作家工作室界面**：石墨深色、纸白浅色和星喵蓝操作色，统一书架、工作区、资料与设置的层级。
+- **四种书架布局**：舒展卡片、紧凑列表、封面书墙、密集图文；保留搜索、筛选和布局偏好。
+- **自定义作品封面**：上传JPG、PNG或WebP，调整缩放及位置，以3:4显示；支持删除、重新打开和备份恢复。
+- **规划修复**：正确处理首卷默认空章节与分批章节位置，忽略新位置的临时编号，继续拒绝跨章节编号覆盖。
+- **窗口与主题**：完善不同尺寸、深浅主题、弹窗可达性及对比度。
 
-完整版工具箱支持生成内容分析、目标预览、核对后加入作品，以及按已确认资料继续新书准备。**自动创作目前为配置及运行页预览**：可保存配置并创建真实作品，但运行页仍为计时演示，尚未实现无人值守全书生成、后台调度和崩溃续跑。
+自动创作仍为配置及运行页预览，运行页是计时演示，尚不支持无人值守整书生成。
 
-[1.0.0使用指南](docs/1.0使用指南.md)
+[1.0.1使用指南](docs/1.0使用指南.md)
 
 ## 主要功能
 
@@ -68,6 +69,6 @@ AI请求把本次选中的正文和资料发送到配置的模型服务，输出
 
 ## 说明与反馈
 
-[功能说明](docs/features.md) · [资料整理](docs/资料整理使用说明.md) · [创作流程](docs/分步创作流程与采用说明.md) · [人工码字](docs/人工码字板使用说明.md) · [风格参考](docs/风格选择与参考资料说明.md) · [本次检查](docs/检查记录-v1.0.0.md)
+[功能说明](docs/features.md) · [资料整理](docs/资料整理使用说明.md) · [创作流程](docs/分步创作流程与采用说明.md) · [人工码字](docs/人工码字板使用说明.md) · [风格参考](docs/风格选择与参考资料说明.md) · [本次检查](docs/检查记录-v1.0.1.md)
 
 完整版附加模块未开源，核心MIT许可不覆盖附加模块。反馈通过Issues提供版本和复现步骤，不附账号会话、密钥或私人小说。
